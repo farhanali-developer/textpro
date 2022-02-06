@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('DEMOAPP.urls')),
     path('file_system', include('DEMOAPP.urls')),
+    path('signup', include('DEMOAPP.urls')),
 ]
